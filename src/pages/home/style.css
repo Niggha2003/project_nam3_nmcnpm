@@ -1,0 +1,55 @@
+.home__body {
+    padding: 0 90px;
+}
+
+.home__banner {
+    width: 100%;
+    height: 300px;
+    margin-top: -50px;
+    flex-shrink: 0;
+    border-radius: var(--spacing-0, 0px);
+    background: url(../../images/banner.png) lightgray 0px 0px / 101.597% 100% no-repeat;
+}
+
+.home__body__intro-text {
+    color: var(--mu-en, #000);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 50px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+.home__body__shop-item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.home__body__shop-item-list > a {
+    margin-top: 40px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.home__body__more-item {
+    display: block;
+    width: 180px;
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: #6b6969;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    cursor: pointer;
+    margin: 50px auto 0 auto;
+}
+
+.home__body__more-item:hover {
+    background-color: #191919;
+}
